@@ -8,7 +8,6 @@ function App() {
 
   function toggleDarkMode() {
     setAppClass(appClass === "App light" ? "App dark" : "App light")
-    console.log(appClass)
   }
 
   
